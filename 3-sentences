@@ -1,0 +1,29 @@
+ __     __  __                                                                                                __
+/  |   /  |/  |                                                                                              /  |
+$$ |   $$ |$$/  _____  ____          _______   ______   _____  ____   _____  ____    ______   _______    ____$$ |  _______
+$$ |   $$ |/  |/     \/    \        /       | /      \ /     \/    \ /     \/    \  /      \ /       \  /    $$ | /       |
+$$  \ /$$/ $$ |$$$$$$ $$$$  |      /$$$$$$$/ /$$$$$$  |$$$$$$ $$$$  |$$$$$$ $$$$  | $$$$$$  |$$$$$$$  |/$$$$$$$ |/$$$$$$$/
+ $$  /$$/  $$ |$$ | $$ | $$ |      $$ |      $$ |  $$ |$$ | $$ | $$ |$$ | $$ | $$ | /    $$ |$$ |  $$ |$$ |  $$ |$$      \
+  $$ $$/   $$ |$$ | $$ | $$ |      $$ \_____ $$ \__$$ |$$ | $$ | $$ |$$ | $$ | $$ |/$$$$$$$ |$$ |  $$ |$$ \__$$ | $$$$$$  |
+   $$$/    $$ |$$ | $$ | $$ |      $$       |$$    $$/ $$ | $$ | $$ |$$ | $$ | $$ |$$    $$ |$$ |  $$ |$$    $$ |/     $$/
+    $/     $$/ $$/  $$/  $$/        $$$$$$$/  $$$$$$/  $$/  $$/  $$/ $$/  $$/  $$/  $$$$$$$/ $$/   $$/  $$$$$$$/ $$$$$$$/
+
+
+Vim operates over text with multiple commands
+  - w => next word
+  - W => next Word (whitespace based)
+  - c => change (puts you in insert mode)
+  - d => delete
+  - y => yank (copy)
+  - p => paste
+
+Vim commands can be CHAINED TOGETHER FOR AWESOMENESS
+  - 3dw
+  - 5cW
+
+There are mode change commands too
+  - V => Visual mode (follow with d/y/p/etc)
+  - : => Command mode (:w or :wa or :wq)
+
+Forming sentences of commands makes you SUPER INSANELY FAST
+  (with a bit of practice!)

@@ -1,0 +1,32 @@
+ __     __  __                      __                  __       __                  __            __
+/  |   /  |/  |                    /  |                /  \     /  |                /  |          /  |
+$$ |   $$ |$$/  _____  ____        $$/   _______       $$  \   /$$ |  ______    ____$$ |  ______  $$ |
+$$ |   $$ |/  |/     \/    \       /  | /       |      $$$  \ /$$$ | /      \  /    $$ | /      \ $$ |
+$$  \ /$$/ $$ |$$$$$$ $$$$  |      $$ |/$$$$$$$/       $$$$  /$$$$ |/$$$$$$  |/$$$$$$$ | $$$$$$  |$$ |
+ $$  /$$/  $$ |$$ | $$ | $$ |      $$ |$$      \       $$ $$ $$/$$ |$$ |  $$ |$$ |  $$ | /    $$ |$$ |
+  $$ $$/   $$ |$$ | $$ | $$ |      $$ | $$$$$$  |      $$ |$$$/ $$ |$$ \__$$ |$$ \__$$ |/$$$$$$$ |$$ |
+   $$$/    $$ |$$ | $$ | $$ |      $$ |/     $$/       $$ | $/  $$ |$$    $$/ $$    $$ |$$    $$ |$$ |
+    $/     $$/ $$/  $$/  $$/       $$/ $$$$$$$/        $$/      $$/  $$$$$$/   $$$$$$$/  $$$$$$$/ $$/
+
+
+Vim is modal - it runs in many modes:
+- Normal
+- Insert
+- Visual
+- Command
+
+Normal
+  Moving around quickly
+  Viewing stuff
+  Get back here using ESC
+
+Insert
+  Writing new stuff
+  Editing existing stuff
+  Edit commands drop you into insert mode  (more on that in a second...)
+
+Visual
+  Manipulating multiple lines or columns
+
+Command
+  Telling Vim to do other stuff which isn't bound to a key
